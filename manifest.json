@@ -1,19 +1,9 @@
 {
   "short_name": "vemarav",
-  "name": "Aravind | Software Engineer",
+  "name": "Software Engineer",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "images/avatar192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "images/avatar512.png",
+      "src": "images/avatar-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
