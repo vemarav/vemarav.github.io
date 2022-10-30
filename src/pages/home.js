@@ -27,58 +27,19 @@ const Glass = styled.div`
   backdrop-filter: blur(60px);
   /* Note: backdrop-filter has minimal browser support */
   display: flex;
-`;
-
-const Panel = styled.div`
-  position: relative;
-  width: 25%;
-  height: calc(100vh * 0.8);
-  left: 0px;
-  top: 0px;
-
-  background: linear-gradient(
-    107.56deg,
-    rgba(255, 255, 255, 0.48) 0%,
-    rgba(255, 255, 255, 0.16) 100%
-  );
-  backdrop-filter: blur(60px);
-  /* Note: backdrop-filter has minimal browser support */
-
-  border-radius: 30px 0px 0px 30px;
-`;
-
-const Header = styled.img`
+  justify-content: center !important;
   margin: auto;
-  margin-top: 2rem;
-  height: 150px;
-  width: 150px;
-  display: block;
-`;
-
-const Tile = styled.img`
-  margin: 1.5rem auto;
-  width: 150px;
-  display: block;
-`;
-
-const Detail = styled.img`
-  margin: auto;
-  margin-top: 2rem;
-  width: 160px;
-  display: block;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
 `;
 
 const Home = () => {
   return (
     <Background>
       <Glass>
-        <Panel>
-          <Header src={svg.header} alt={"Aravind Vemula"} />
-          <Tile src={svg.flutter} alt="Flutter" />
-          <Tile src={svg.reactNative} alt="React Native" />
-          <Tile src={svg.rubyOnRails} alt="Ruby on Rails" />
-          <Detail src={svg.detail} alt="aravind-detail" />
-        </Panel>
+        <div>Coming soon...</div>
       </Glass>
     </Background>
   );
